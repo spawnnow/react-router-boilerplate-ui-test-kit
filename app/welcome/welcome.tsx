@@ -1,5 +1,7 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
+// import { User01 } from "@untitledui/icons";
+import { FileIcon } from "@untitledui/file-icons";
 
 export function Welcome() {
   return (
@@ -17,6 +19,8 @@ export function Welcome() {
               alt="React Router"
               className="hidden w-full dark:block"
             />
+            {/* <User01 /> */}
+            <FileIcon type="ai" />
           </div>
         </header>
         <div className="max-w-[300px] w-full space-y-6 px-4">
