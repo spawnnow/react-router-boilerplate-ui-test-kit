@@ -1,6 +1,6 @@
 import logoDark from "./logo-dark.svg";
 import logoLight from "./logo-light.svg";
-import { User01 } from "@untitledui/icons";
+import { User01 } from "@untitledui/icons/User01";
 import { FileIcon } from "@untitledui/file-icons";
 
 export function Welcome() {
